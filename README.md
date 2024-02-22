@@ -47,5 +47,4 @@ npm run deploy
     ├── babel.config.js
     ├── jsconfig.json
     ├── package.json
-    ├── vue.config.js
-    └── index.html
+    └── vue.config.js
