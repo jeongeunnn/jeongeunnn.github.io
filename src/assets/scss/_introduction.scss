@@ -2,8 +2,12 @@
   &__left{
     position: relative; top: 0; left: 0;
     overflow: hidden;
+    .svg-wrap{
+
+    }
     #svg{
-      min-width: 255.01px; min-height: 147.59px;
+      min-width: 255.01px;
+      max-width: 450px; max-height: 100%;
       overflow: visible;
       position: absolute; bottom: $icon-size1; right: $icon-size1; 
       @include media-breakpoint-up(xxl) {
