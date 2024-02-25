@@ -26,7 +26,7 @@
           <dd>{{ projects[id].skill }}</dd>
         </dl>
         <dl>
-          <dt>담당업무</dt>
+          <dt>담당 업무</dt>
           <dd>
             <ul>
               <li class="list-item" v-for="item in projects[id].role" :key="item">{{ item }}</li>
@@ -34,7 +34,7 @@
           </dd>
         </dl>
         <dl>
-          <dt>기타사항</dt>
+          <dt>세부 내용</dt>
           <dd>
             <ul>
               <li class="list-item" v-for="item in projects[id].etc" :key="item">{{ item }}</li>

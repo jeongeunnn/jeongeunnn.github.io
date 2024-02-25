@@ -33,9 +33,9 @@
         <ul class="project-list row g-4">
           <li 
             :class="item.company != this.timeline[this.id].company ? `specific-project ${cName}` : cName"
-            v-for="(item, index) in projects" :key="index"
+            v-for="(item, index) in reverseProject(projects)" :key="index"
           >
-            <ComponentCard :projects="projects[index]" />
+            <ComponentCard :projects="item" />
           </li>
         </ul>
       </dd>
@@ -93,6 +93,10 @@
           this.cName = 'col-md-6';
         }
       },
+      reverseProject(data){
+        Object.assign([], data)
+        return [...data].reverse();
+      }
     }
   }
 </script>
