@@ -16,7 +16,7 @@ npm run deploy
 ```
 
 ### Structure
-    jeongeunnn.github.io
+    jungeunnn.github.io
     ├── dist
     │   ├── css
     │   ├── favi
