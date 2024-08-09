@@ -13,9 +13,6 @@ import PortfolioDetail from './pages/portfolio/PortfolioDetail.vue';
 import AnimationMain from './pages/animation/AnimationMain.vue';
 import AnimationDetail from './pages/animation/AnimationDetail.vue';
 
-
-
-
 const routes = [
   {
     name: 'main',
@@ -98,6 +95,14 @@ const routes = [
       },
     ]
   },
+  {
+    name: 'React',
+    path: '/React',
+    beforeEnter(to, from, next) {
+      window.open('https://github.nhnent.com/pages/ui-dev/NHN-GamePlatform-React/jungeun-park/gameplatform/dist/index.html#contact', '_blank');
+      next('/');
+    },
+  }
 ];
 
 const router = createRouter({

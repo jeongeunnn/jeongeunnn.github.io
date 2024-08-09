@@ -54,12 +54,13 @@
         },
         
         data: {
-          labels: ['Javascript', 'vue.js', 'React.js', 'jQuery', 'Html5', 'Css3', 'Scss', 'Bootstrap'],
+          labels: ['JavaScript', 'TypeScript', 'Vue', 'React', 'jQuery', 'HTML5', 'CSS3', 'CSS 전처리(SCSS, CSS in JS)'],
           datasets: [
             {
-              data: [83, 60, 40, 90, 95, 95, 90, 85],
+              data: [85, 50, 75, 70, 90, 95, 95, 90],
               backgroundColor: [
                 '#f4bfbf',
+                '#e6fac5',
                 '#ffd9c0',
                 '#faf0d7',
                 '#b7e5dd',

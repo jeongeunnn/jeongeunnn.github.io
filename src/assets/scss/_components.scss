@@ -93,6 +93,8 @@
   font-size: 1rem; line-height: 1.5;
   position: relative; top: 0; left: 0;
   padding-left: $top-bottom-padding;
+  white-space: pre-line;
+  word-break: keep-all;
   &::before{
     content: "-";
     position: absolute; top: 0; left: 0;

@@ -1,6 +1,6 @@
 # Jungeun Portfolio
 안녕하세요. 
-5년차 UI개발자 박정은입니다.
+5년차 프론트엔드 개발자 박정은입니다.
 
 ### install
 node 18.12.1
